@@ -15,6 +15,7 @@ GoogleMapsLoader.load(function(google) {
   const options = {
     zoom: 16,
     zoomControl: true,
+    fullscreenControl: false,
     mapTypeControlOptions: {
       mapTypeIds: []
     },
@@ -23,28 +24,12 @@ GoogleMapsLoader.load(function(google) {
   }
   const map = new google.maps.Map(document.getElementById('map'), options);
 
-  map.data.addGeoJson(googlejson);
-
-  map.data.setStyle(function(feature) {
-    var hyresvardID = feature.getProperty('hyresvardID');
-    var color = hyresvardID < 1 ? 'red' : '#1662A5';
-    return {
-      fillColor: color,
-      strokeWeight: 4,
-      strokeColor: 'grey'
-    };
-  });
-
-  map.data.addListener('click', function(event) {
-   map.data.overrideStyle(event.feature, {fillColor: 'green'});
-});
-
-  // console.log(googlejson);
-
   var currentInfoWindow = null;
 
-  data.forEach((coord) => {
+  map.data.addGeoJson(googlejson);
 
+
+  data.forEach((coord) => {
     const position = new google.maps.LatLng(coord.latitude, coord.longitude);
     const marker = new google.maps.Marker({
       position: position,
@@ -77,9 +62,39 @@ GoogleMapsLoader.load(function(google) {
     });
   });
 
-  console.log(markers);
 
-  var mcOptions = {gridSize: 40, maxZoom: 15, imagePath: 'https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'};
-  var markerCluster = new MarkerClusterer(map, markers, mcOptions);
+  // var mcOptions = {gridSize: 40, maxZoom: 12, imagePath: 'https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'};
+  // var markerCluster = new MarkerClusterer(map, markers, mcOptions);
+
+
+  window.filterMarkers = function(el){
+    let id = el.value;
+    // markers.forEach((item) => {
+    //   if(el.checked){
+    //     if(item.hyresvardID == el.value){
+    //       markers.setVisible(true)
+    //     }
+    //   }
+    if(el.checked){
+      let filteredMarkers = markers.filter((item) => {
+        return item.hyresvardID == id;
+      })
+      filteredMarkers.forEach((item) => {
+        item.setVisible(true);
+      })
+    } else {
+      let filteredMarkers = markers.filter((item) => {
+        return item.hyresvardID == id;
+      })
+      filteredMarkers.forEach((item) => {
+        item.setVisible(false);
+      })
+    }
+    //   markers = filteredMarkers;
+    //   // console.log(this.stateMarkers);
+    // }
+  }
+
+
 
 });

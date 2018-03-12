@@ -7,6 +7,11 @@
 </head>
 <body>
     <div class="content">
+      <div class="sidebar">
+        <h3>Hyresvärdar</h3>
+        <input id="sgscheck" type="checkbox" onchange="filterMarkers(this)" name="sgs" value="1" checked="true">Sgs<br>
+        <input id="bostadsbolagetcheck" type="checkbox" onchange="filterMarkers(this)" name="bostadsbolaget" value="2" checked="true">Bostadsbolaget<br>
+      </div>
         <div id="map"></div>
     </div>
     <script src="../app/markerclusterer.js"></script>

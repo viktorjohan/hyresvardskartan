@@ -1,9 +1,9 @@
 import sgsicon from '../assets/images/sgsicon.png';
 import bostadsbolageticon from '../assets/images/bostadsbolageticon.png';
-// import ernst from './icons/ernsticon.png';
-// import poseidon from './icons/poseidonicon.png';
-// import novi from './icons/noviicon.png';
-// import skanses from './icons/skansesicon.png';
+import ernsticon from '../assets/images/ernsticon.png';
+// import poseidonicon from './icons/poseidonicon.png';
+// import noviicon from './icons/noviicon.png';
+// import skansesicon from './icons/skansesicon.png';
 
 
 export default
