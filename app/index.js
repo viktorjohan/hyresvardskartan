@@ -28,6 +28,11 @@ GoogleMapsLoader.load(function(google) {
 
   map.data.addGeoJson(googlejson);
 
+  map.data.setStyle({
+    fillColor: 'green',
+    fillOpacity: 0.3,
+    strokeWeight: 0
+  });
 
   data.forEach((coord) => {
     const position = new google.maps.LatLng(coord.latitude, coord.longitude);
