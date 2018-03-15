@@ -46,7 +46,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "hyresvard": "SGS"
+      }
     },
     {
       "type": "Feature",
@@ -81,7 +83,10 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "hyresvard": "Skanses",
+        "fastighetsbeteckning": "Nordstaden 17:4"
+      }
     },
     {
       "type": "Feature",
@@ -112,7 +117,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "hyresvard": "Bostadsbolaget"
+      }
     },
     {
       "type": "Feature",
@@ -151,7 +158,7 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {"hyresvard": "Poseidon"}
     },
     {
       "type": "Feature",
@@ -198,7 +205,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "hyresvard": "Ernst Rosén"
+      }
     },
     {
       "type": "Feature",
@@ -237,7 +246,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "hyresvard": "Einar Mattsson"
+      }
     },
     {
       "type": "Feature",
@@ -276,7 +287,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "hyresvard": "Wallenstam"
+      }
     },
     {
       "type": "Feature",
@@ -315,7 +328,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "hyresvard": "HSB"
+      }
     }
   ]
 }

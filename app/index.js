@@ -29,10 +29,25 @@ GoogleMapsLoader.load(function(google) {
   map.data.addGeoJson(googlejson);
 
   map.data.setStyle({
-    fillColor: 'green',
-    fillOpacity: 0.3,
-    strokeWeight: 0
+    fillColor: '#1B56A1',
+    fillOpacity: 0.8,
+    strokeWeight: 6,
+    strokeColor: "lightgrey"
   });
+
+
+  map.data.addListener('click', function(event) {
+    document.getElementById('info-box').textContent =
+    event.feature.getProperty('hyresvard');
+  });
+  map.data.addListener('click', function(event) {
+    document.getElementById('info-box2').textContent =
+    event.feature.getProperty('fastighetsbeteckning');
+  });
+
+
+
+
 
   data.forEach((coord) => {
     const position = new google.maps.LatLng(coord.latitude, coord.longitude);
