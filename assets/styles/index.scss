@@ -1,21 +1,80 @@
-// Apply a natural box layout model to all elements
-// but allowing components to change
-// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+@import url('https://fonts.googleapis.com/css?family=Futura|Roboto|Open+Sans|Raleway|Playfair+Display:400,900');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
 html, body {
     box-sizing: border-box;
     margin: 0;
     font-family: Arial;
-    text-align: center;
+}
+
+a {
+  color: #003667;
 }
 
 h1 {
-  color: blue;
+  font-size: 22px;
+  color: #696969;
 }
+
+.infowindow-heading {
+  color: #033667
+}
+
+.border {
+  background-color: lightgrey;
+  text-align: center;
+  width: 170px;
+  height: 1px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+// .infowindow {
+//   text-align: left;
+// }
+
+.infowindow img {
+  width: 100px;
+  text-align: left;
+}
+
+// .content {
+//   display: flex;
+//   justify-content: space-between;
+// }
 
 #map {
   height: 100vh;
   width: 100%;
+  float: right;
 }
+.sidebar-footer {
+  text-align: left;
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+}
+.sidebar p {
+  margin: 6px;
+  font-size: 12px;
+  font-weight: 200;
+  color: #696969;
+}
+
+
+// .header {
+//   margin-left: 20px;
+//   margin-top: 12px;
+//   display: flex;
+//   background-color: white;
+//   width: 100%;
+//   height: 62px;
+//   text-align: left;
+// }
 
 .sidebar {
   height: 100%;
@@ -29,6 +88,141 @@ h1 {
   text-align: left !important
 }
 
+@media all and (min-width: 768px) {
+  .navigation__toggle {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .header {
+    background-color: white !important;
+  }
+
+  .header img {
+    position: absolute;
+    top: -3px !important;
+    left: 16px !important;
+    width: 26px !important;
+    height: auto;
+  }
+
+  .header h3 {
+    text-align: left;
+    margin-top: 14px !important;
+    margin-left: 50px !important;
+  }
+
+  .checkboxes {
+    display: none;
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+  }
+
+  .navigation__toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 12px;
+    right: 16px;
+    width: 26px;
+    height: 26px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .navigation__toggle-icon {
+  background-color: #696969;
+  border-radius: 5px;
+  content: "";
+  height: 4px;
+  position: absolute;
+  top: 14px;
+  width: 23px;
+  transition: all .2s ease;
+}
+
+.navigation__toggle-icon::before {
+  background-color: #696969;
+  border-radius: 5px;
+  content: "";
+  height: 4px;
+  position: absolute;
+  top: -6px;
+  left: 0px;
+  width: 23px;
+  transition: all .2s ease;
+}
+
+.navigation__toggle-icon::after {
+  background-color: #696969;
+  border-radius: 5px;
+  content: "";
+  height: 4px;
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  width: 23px;
+  transition: all .2s ease;
+}
+
+.navigation__toggle--active .navigation__toggle-icon {
+  background: transparent;
+  transform: rotate(-135deg);
+}
+
+.navigation__toggle--active .navigation__toggle-icon::before {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.navigation__toggle--active .navigation__toggle-icon::after {
+  top: 0;
+}
+
+  .sidebar {
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 3px 0px 9px #e3e3e3;
+    text-align: left !important
+  }
+
+  // .burger-nav {
+  //   display: block;
+  //   padding: 0;
+  //   height: 40px;
+  //   width: 100%;
+  //   background: url(../images/menu2.png) no-repeat 96% center;
+  //   cursor: pointer;
+  //   z-index: 999;
+  // }
+  //
+  // remove this eller inte
+
+  // .checkboxes {
+  //   overflow: hidden;
+  //   height: auto;
+  //   background: #984;
+  // }
+
+  .sidebar-footer {
+    display: none;
+  }
+}
+
+// .checkboxes {
+//   display: block !important;
+// }
+
+
 #info-box {
   width: 100px;
   height: 100px;
@@ -39,40 +233,56 @@ h1 {
   height: 100px;
 }
 
+// .infowindow-header {
+//   border-bottom: 3px solid black;
+// }
+
+a:link {
+  color: #003667;
+}
+
+.header {
+  text-align: center;
+}
 
 
-//.gm-style .gm-style-iw {
-//             background-color: lightblue !important;
-//             top: 0 !important;
-//             left: 0 !important;
-//             width: 100% !important;
-//             height: 100% !important;
-//             min-height: 120px !important;
-//             padding-top: 10px;
-//             display: block !important;
-  //           border-radius: 30px !important;
-  //           font-family: Times;
-//         }
-//
-//          /*style the p tag*/
-//          .gm-style .gm-style-iw #google-popup p{
-//             padding: 10px;
-//          }
-//
-//         /*style the arrow*/
-//         .gm-style div div div div div div div div {
-//             background-color: lightblue !important;
-//             padding: 0;
-//             margin: 0;
-//             padding: 0;
-//             top: 0;
-//             color: #fff;
-//             font-size: 16px;
-//             border-radius: 30px;
-//         }
-//
-//         /*style the link*/
-//         .gm-style div div div div div div div div a {
-//             color: #f1f1f1;
-//             font-weight: bold;
-//         }
+// .checkboxes {
+//   text-align: left;
+//   margin-left: 12px;
+//   display: block;
+// }
+
+.header h3 {
+  color: #424242;
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 20px !important;
+  font-family: "Raleway";
+}
+
+.header img {
+  margin-top: 14px;
+  width: 40px;
+}
+
+.checkboxes {
+  text-align: left;
+  margin-top: 18px;
+  padding-left: 12px;
+}
+
+.checkboxes input {
+  margin-bottom: 6px;
+}
+
+#map > div > div > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) > div > div:nth-child(1) > div:nth-child(4) {
+  background-color: white !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+
+#map > div > div > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) > div > div:nth-child(1) > div:nth-child(2) {
+  background-color: none !important;
+  border-radius: 5px !important;
+  border: none !important;
+}

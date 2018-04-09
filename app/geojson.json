@@ -47,12 +47,13 @@
         ]
       },
       "properties": {
-        "hyresvard": "SGS",
+        "hyresvard": "SGS Studentbostäder",
         "fastighetsbeteckning": "Nordstaden 17:4",
         "icon": "../assets/images/sgsicon2.png",
         "LatLng": {"lat": 57.707984, "lng": 11.966243},
         "color": "#193994",
-        "adress": "Postgatan 18"
+        "adress": "Postgatan 18",
+        "hemsida": "https://www.sgsstudentbostader.se/"
       }
     },
     {
@@ -93,7 +94,9 @@
         "fastighetsbeteckning": "Nordstaden 29:4",
         "icon": "../assets/images/bostadsbolageticon2.png",
         "LatLng": {"lat": 57.708414, "lng": 11.964853},
-        "color": "#1B56A1"
+        "color": "#1B56A1",
+        "adress": "Nedre Kvarnbergsgatan 14-22",
+        "hemsida": "https://www.bostadsbolaget.se/"
       }
     },
     {
@@ -134,7 +137,9 @@
         "fastighetsbeteckning": "Nordstaden 19:4",
         "icon": "../assets/images/bostadsbolageticon2.png",
         "LatLng": {"lat": 57.708947, "lng": 11.964778},
-        "color": "#1B56A1"
+        "color": "#1B56A1",
+        "adress": "Nedre Kvarnbergsgatan 14-22",
+        "hemsida": "https://www.bostadsbolaget.se/"
       }
     },
     {
@@ -175,11 +180,519 @@
         ]
       },
       "properties": {
-        "hyresvard": "Poesidon",
+        "hyresvard": "Poseidon",
         "fastighetsbeteckning": "Nordstaden 11:4",
         "icon": "../assets/images/poseidonicon2.png",
         "LatLng": {"lat": 57.708892, "lng": 11.963727},
-        "color": "yellow"
+        "color": "yellow",
+        "adress": "Kronhusgatan 2E",
+        "hemsida": "https://www.bostadsbolaget.se/"
+      }
+    },
+    {
+     "type": "Feature",
+     "geometry": {
+       "type": "Polygon",
+       "coordinates": [
+         [
+           [
+             11.962115895030365,
+             57.707791959563494
+           ],
+           [
+             11.962004583356247,
+             57.70802552743538
+           ],
+           [
+             11.962208431241379,
+             57.70805203657717
+           ],
+           [
+             11.962283533093796,
+             57.70789728023209
+           ],
+           [
+             11.962794493911133,
+             57.707964627982065
+           ],
+           [
+             11.962830703732834,
+             57.70788581677284
+           ],
+           [
+             11.962115895030365,
+             57.707791959563494
+           ]
+         ]
+       ]
+     },
+     "properties": {
+       "hyresvard": "SGS Studentbostäder",
+       "fastighetsbeteckning": "Nordstaden 19:4",
+       "icon": "../assets/images/poseidonicon2.png",
+       "LatLng": {"lat": 57.707868, "lng": 11.962253},
+       "color": "#1B56A1",
+       "adress": "Torggatan 12",
+       "hemsida": "http://www.svenskahus.se/"
+     }
+   },
+   {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.961653213975296,
+              57.70770240093077
+            ],
+            [
+              11.961643826243744,
+              57.70779267603165
+            ],
+            [
+              11.961716245887146,
+              57.707803423052454
+            ],
+            [
+              11.961708199260102,
+              57.70789369790147
+            ],
+            [
+              11.96186108517395,
+              57.707916624811396
+            ],
+            [
+              11.961926799294815,
+              57.7077482549784
+            ],
+            [
+              11.961653213975296,
+              57.70770240093077
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "hyresvard": "Svenska hus",
+        "fastighetsbeteckning": "Nordstaden 14:2",
+        "icon": "../assets/images/noviicon.png",
+        "LatLng": {"lat": 57.707779, "lng": 11.961803},
+        "color": "#10ce62",
+        "adress": "Nedre Kvarnbergsgatangatangatan 14-22",
+        "hemsida": "https://www.bostadsbolaget.se/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.96556863679416,
+              57.70849084263339
+            ],
+            [
+              11.965469395060609,
+              57.70866207481743
+            ],
+            [
+              11.96589452518947,
+              57.708733003392894
+            ],
+            [
+              11.965823446650575,
+              57.708849068034866
+            ],
+            [
+              11.965199833054612,
+              57.70874231723591
+            ],
+            [
+              11.965367471118043,
+              57.70845860217343
+            ],
+            [
+              11.96556863679416,
+              57.70849084263339
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "hyresvard": "Familjebostäder",
+        "fastighetsbeteckning": "Nordstaden 14:2",
+
+        "icon": "../assets/images/ernsticon.png",
+        "LatLng": {"lat": 57.708627, "lng": 11.965421},
+        "color": "#10ce62",
+        "adress": "Övre Kvarnbergsgatan 19-22, Torggatan 12",
+        "hemsida": "https://www.bostadsbolaget.se/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.94964728669595,
+              57.69988126346266
+            ],
+            [
+              11.94973579959344,
+              57.69961324483569
+            ],
+            [
+              11.950277605814449,
+              57.69966054238457
+            ],
+            [
+              11.950002679390423,
+              57.69991422818357
+            ],
+            [
+              11.94964728669595,
+              57.69988126346266
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "hyresvard": "SGS Studentbostäder",
+        "fastighetsbeteckning": "Nordstaden 12:2",
+        "icon": "../assets/images/ernsticon.png",
+        "LatLng": {"lat": 57.699819, "lng": 11.949872},
+        "color": "#10ce62",
+        "adress": "Första långgatan 12",
+        "hemsida": "https://www.bostadsbolaget.se/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.94842886998697,
+              57.698386679028765
+            ],
+            [
+              11.948495925212342,
+              57.69819031522838
+            ],
+            [
+              11.949324727797944,
+              57.698272014165134
+            ],
+            [
+              11.949292541289765,
+              57.69837091263153
+            ],
+            [
+              11.948603213572937,
+              57.69830641366232
+            ],
+            [
+              11.948568344855744,
+              57.69840531203481
+            ],
+            [
+              11.94842886998697,
+              57.698386679028765
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "hyresvard": "SGS Studentbostäder",
+        "fastighetsbeteckning": "Nordstaden 12:2",
+        "icon": "../assets/images/ernsticon.png",
+        "LatLng": {"lat": 57.699819, "lng": 11.949872},
+        "color": "#10ce62",
+        "adress": "Tredje långgatan 10",
+        "hemsida": "https://www.bostadsbolaget.se/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.94746051919094,
+              57.699224079855725
+            ],
+            [
+              11.947506116744194,
+              57.69910153460247
+            ],
+            [
+              11.94795941006771,
+              57.69914811618034
+            ],
+            [
+              11.947911130305442,
+              57.6992663614551
+            ],
+            [
+              11.94746051919094,
+              57.699224079855725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "hyresvard": "Ernst Rosén",
+        "fastighetsbeteckning": "Nordstaden 12:2",
+        "icon": "../assets/images/ernsticon.png",
+        "LatLng": {"lat": 57.699191, "lng": 11.947687},
+        "color": "blue",
+        "adress": "Andra långgatan 12",
+        "hemsida": "https://www.bostadsbolaget.se/"
+      }
+    },
+    {
+     "type": "Feature",
+     "geometry": {
+       "type": "Polygon",
+       "coordinates": [
+         [
+           [
+             11.94712129309221,
+             57.69870487212408
+           ],
+           [
+             11.94721517040773,
+             57.698713471898664
+           ],
+           [
+             11.947166890645462,
+             57.698852501304636
+           ],
+           [
+             11.947354645276505,
+             57.69887256736041
+           ],
+           [
+             11.947306365514237,
+             57.698985797038155
+           ],
+           [
+             11.947030097985703,
+             57.69895713133042
+           ],
+           [
+             11.94712129309221,
+             57.69870487212408
+           ]
+         ]
+       ]
+     },
+     "properties": {
+       "hyresvard": "Wallenstam",
+       "fastighetsbeteckning": "Linnestaden 12:2",
+       "icon": "../assets/images/ernsticon.png",
+       "LatLng": {"lat": 57.698889, "lng": 11.947199},
+       "color": "orangered",
+       "adress": "Tredje långgatan 12",
+       "hemsida": "https://www.bostadsbolaget.se/"
+     }
+   },
+   {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.946629034396324,
+              57.69889370523171
+            ],
+            [
+              11.94672022950283,
+              57.6986400122852
+            ],
+            [
+              11.946952240582618,
+              57.69866294505397
+            ],
+            [
+              11.946945535060081,
+              57.698677994675585
+            ],
+            [
+              11.947127925273094,
+              57.69869806082805
+            ],
+            [
+              11.947026001330528,
+              57.69895748651223
+            ],
+            [
+              11.946697430726203,
+              57.698928104138524
+            ],
+            [
+              11.946629034396324,
+              57.69889370523171
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "hyresvard": "Wallenstam",
+        "fastighetsbeteckning": "Linnestaden 12:2",
+        "icon": "../assets/images/ernsticon.png",
+        "LatLng": {"lat": 57.698889, "lng": 11.947199},
+        "color": "yellow",
+        "adress": "Tredje långgatan 22",
+        "hemsida": "https://www.bostadsbolaget.se/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.947763456160715,
+              57.69811969774555
+            ],
+            [
+              11.947910977656534,
+              57.698134030933616
+            ],
+            [
+              11.947868062312295,
+              57.69827162925051
+            ],
+            [
+              11.948028994853189,
+              57.69828882900338
+            ],
+            [
+              11.94799144392698,
+              57.698396327273755
+            ],
+            [
+              11.947672261054208,
+              57.69836622779018
+            ],
+            [
+              11.947763456160715,
+              57.69811969774555
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "hyresvard": "Ernst Rosen",
+        "fastighetsbeteckning": "Linnestaden 12:2",
+        "icon": "../assets/images/ernsticon.png",
+        "LatLng": {"lat": 57.698889, "lng": 11.947199},
+        "color": "blue",
+        "adress": "Tredje långgatan 22",
+        "hemsida": "https://www.bostadsbolaget.se/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.95652668402738,
+              57.698569186866614
+            ],
+            [
+              11.956628607969947,
+              57.69878561471705
+            ],
+            [
+              11.957325982313819,
+              57.69876124873228
+            ],
+            [
+              11.95729916022367,
+              57.698504688250466
+            ],
+            [
+              11.957264291506476,
+              57.69848892190461
+            ],
+            [
+              11.956545459490485,
+              57.69854482073623
+            ],
+            [
+              11.95652668402738,
+              57.698569186866614
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "hyresvard": "Ernst Rosen",
+        "fastighetsbeteckning": "Linnestaden 12:2",
+        "icon": "../assets/images/ernsticon.png",
+        "LatLng": {"lat": 57.698889, "lng": 11.947199},
+        "color": "pink",
+        "adress": "Tredje långgatan 22",
+        "hemsida": "https://www.bostadsbolaget.se/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.956743942957587,
+              57.6990450397742
+            ],
+            [
+              11.956625925760932,
+              57.69878418142429
+            ],
+            [
+              11.957334028940863,
+              57.69876124873228
+            ],
+            [
+              11.957368897658057,
+              57.699016374113334
+            ],
+            [
+              11.957325982313819,
+              57.6990307069466
+            ],
+            [
+              11.956792222719855,
+              57.69905363946801
+            ],
+            [
+              11.956743942957587,
+              57.6990450397742
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "hyresvard": "Wallenstam Rosen",
+        "fastighetsbeteckning": "Linnestaden 12:2",
+        "icon": "../assets/images/ernsticon.png",
+        "LatLng": {"lat": 57.698889, "lng": 11.947199},
+        "color": "darkblue",
+        "adress": "Tredje långgatan 22",
+        "hemsida": "https://www.bostadsbolaget.se/"
       }
     }
   ]

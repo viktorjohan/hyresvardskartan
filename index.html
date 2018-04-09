@@ -3,19 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Kalle kola</title>
+    <title>Hyresvärdskartan</title>
+    <link rel="icon" href="../assets/images/favicon3.ico" type="image/x-icon">
 </head>
 <body>
+  <!-- <div class="header">
+    <img style="width: auto; height:46px" src="../assets/images/cityscape.png" />
+    <h1 style="margin-left: 12px;">Hyresvärdskartan</h1>
+  </div> -->
     <div class="content">
       <div class="sidebar">
-        <h3>Hyresvärdar</h3>
-        <input id="sgscheck" type="checkbox" onchange="filterMarkers(this)" name="sgs" value="1" checked="true">Sgs<br>
-        <input id="bostadsbolagetcheck" type="checkbox" onchange="filterMarkers(this)" name="bostadsbolaget" value="2" checked="true">Bostadsbolaget<br>
-        <!-- Hyresvärd:<div id="info-box"></div>
-        Fastighetsbeteckning:<div id="info-box2"></div> -->
-        <img id="iconen" src="" />
-        <button id="tabort">delet</button>
-        <button id="visa">visa</button>
+        <div class="header">
+          <img src="../assets/images/kartanlogo2.png" />
+          <h3>Hyresvärdskartan</h3>
+          <div class="navigation__toggle js-navigation__toggle">
+            <div class="navigation__toggle-icon">
+            </div>
+          </div>
+            <div class="checkboxes">
+                <input id="sgscheck" type="checkbox" onchange="filterMarkers(this)" name="sgs" value="1" checked="true">SGS Studentbostäder<br>
+                <input id="bostadsbolagetcheck" type="checkbox" onchange="filterMarkers(this)" name="bostadsbolaget" value="2" checked="true">Bostadsbolaget<br>
+                <input id="ernstrosencheck" type="checkbox" onchange="filterMarkers(this)" name="ernstrosen" value="3" checked="true">Ernst Rosén<br>
+                <input id="sgscheck" type="checkbox" onchange="filterMarkers(this)" name="sgs" value="4" checked="true">Wallenstam<br>
+                <input id="bostadsbolagetcheck" type="checkbox" onchange="filterMarkers(this)" name="bostadsbolaget" value="5" checked="true">Poseidon<br>
+                <input id="skandiafastigheter" type="checkbox" onchange="filterMarkers(this)" name="skandiafastigheter" value="6" checked="true">Skandia fastigheter<br>
+                <input id="ernstrosencheck" type="checkbox" onchange="filterMarkers(this)" name="ernstrosen" value="7" checked="true">Ivar Kjellberg<br>
+                <input id="sgscheck" type="checkbox" onchange="filterMarkers(this)" name="sgs" value="8" checked="true">Västerstaden<br>
+                <input id="ernstrosencheck" type="checkbox" onchange="filterMarkers(this)" name="ernstrosen" value="10" checked="true">Skanses fastigheter<br>
+            </div>
+        </div>
+        <div class="sidebar-footer">
+          <!-- <a href="#"><p>Kontakt</p></a>
+          <a href="./kartan.html"><p>Om kartan</p></a> -->
+          <p style="color: lightgrey; margin-top: 20px;">© Copyright 2018 Hyresvärdskartan</p>
+        </div>
       </div>
         <div id="map"></div>
     </div>
