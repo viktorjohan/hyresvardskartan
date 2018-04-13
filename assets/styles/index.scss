@@ -33,19 +33,10 @@ h1 {
   margin-bottom: 16px;
 }
 
-// .infowindow {
-//   text-align: left;
-// }
-
 .infowindow img {
   width: 100px;
   text-align: left;
 }
-
-// .content {
-//   display: flex;
-//   justify-content: space-between;
-// }
 
 #map {
   height: 100vh;
@@ -64,17 +55,6 @@ h1 {
   font-weight: 200;
   color: #696969;
 }
-
-
-// .header {
-//   margin-left: 20px;
-//   margin-top: 12px;
-//   display: flex;
-//   background-color: white;
-//   width: 100%;
-//   height: 62px;
-//   text-align: left;
-// }
 
 .sidebar {
   height: 100%;
@@ -135,53 +115,53 @@ h1 {
   }
 
   .navigation__toggle-icon {
-  background-color: #696969;
-  border-radius: 5px;
-  content: "";
-  height: 4px;
-  position: absolute;
-  top: 14px;
-  width: 23px;
-  transition: all .2s ease;
-}
+    background-color: #696969;
+    border-radius: 5px;
+    content: "";
+    height: 4px;
+    position: absolute;
+    top: 14px;
+    width: 23px;
+    transition: all .2s ease;
+  }
 
-.navigation__toggle-icon::before {
-  background-color: #696969;
-  border-radius: 5px;
-  content: "";
-  height: 4px;
-  position: absolute;
-  top: -6px;
-  left: 0px;
-  width: 23px;
-  transition: all .2s ease;
-}
+  .navigation__toggle-icon::before {
+    background-color: #696969;
+    border-radius: 5px;
+    content: "";
+    height: 4px;
+    position: absolute;
+    top: -6px;
+    left: 0px;
+    width: 23px;
+    transition: all .2s ease;
+  }
 
-.navigation__toggle-icon::after {
-  background-color: #696969;
-  border-radius: 5px;
-  content: "";
-  height: 4px;
-  position: absolute;
-  top: 6px;
-  left: 0px;
-  width: 23px;
-  transition: all .2s ease;
-}
+  .navigation__toggle-icon::after {
+    background-color: #696969;
+    border-radius: 5px;
+    content: "";
+    height: 4px;
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    width: 23px;
+    transition: all .2s ease;
+  }
 
-.navigation__toggle--active .navigation__toggle-icon {
-  background: transparent;
-  transform: rotate(-135deg);
-}
+  .navigation__toggle--active .navigation__toggle-icon {
+    background: transparent;
+    transform: rotate(-135deg);
+  }
 
-.navigation__toggle--active .navigation__toggle-icon::before {
-  top: 0;
-  transform: rotate(90deg);
-}
+  .navigation__toggle--active .navigation__toggle-icon::before {
+    top: 0;
+    transform: rotate(90deg);
+  }
 
-.navigation__toggle--active .navigation__toggle-icon::after {
-  top: 0;
-}
+  .navigation__toggle--active .navigation__toggle-icon::after {
+    top: 0;
+  }
 
   .sidebar {
     height: auto;
@@ -195,33 +175,10 @@ h1 {
     text-align: left !important
   }
 
-  // .burger-nav {
-  //   display: block;
-  //   padding: 0;
-  //   height: 40px;
-  //   width: 100%;
-  //   background: url(../images/menu2.png) no-repeat 96% center;
-  //   cursor: pointer;
-  //   z-index: 999;
-  // }
-  //
-  // remove this eller inte
-
-  // .checkboxes {
-  //   overflow: hidden;
-  //   height: auto;
-  //   background: #984;
-  // }
-
   .sidebar-footer {
     display: none;
   }
 }
-
-// .checkboxes {
-//   display: block !important;
-// }
-
 
 #info-box {
   width: 100px;
@@ -233,10 +190,6 @@ h1 {
   height: 100px;
 }
 
-// .infowindow-header {
-//   border-bottom: 3px solid black;
-// }
-
 a:link {
   color: #003667;
 }
@@ -244,13 +197,6 @@ a:link {
 .header {
   text-align: center;
 }
-
-
-// .checkboxes {
-//   text-align: left;
-//   margin-left: 12px;
-//   display: block;
-// }
 
 .header h3 {
   color: #424242;

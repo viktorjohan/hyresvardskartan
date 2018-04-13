@@ -7,8 +7,8 @@ import skansesicon from '../assets/images/skansesicon.png';
 import wallenstamicon from '../assets/images/wallenstamicon.png';
 import poseidonicon from '../assets/images/poseidonicon.png';
 import vasterstadenicon from '../assets/images/vasterstadenicon.png';
-// import noviicon from './icons/noviicon.png';
-// import skansesicon from './icons/skansesicon.png';
+import familjebostadericon from '../assets/images/familjebostadericon.png';
+import bygggotaicon from '../assets/images/bygggotaicon.png';
 
 
 export default
@@ -207,18 +207,18 @@ export default
   //   "icon": bostadsbolageticon,
   //   "hemsida": "https://www.bostadsbolaget.se/"
   // },
-  // {
-  //   "adresscoordinates": "Mjölnaregatan 3 Gothenburg",
-  //   "adress": "Mjölnaregatan 3A-B",
-  //   "latitude": 57.7091328,
-  //   "longitude": 11.9631685,
-  //   "fastighetsbeteckning": "Nordstaden 29:3",
-  //   "id": 17,
-  //   "hyresvard": "Bostadsbolaget",
-  //   "hyresvardID": 2,
-  //   "icon": bostadsbolageticon,
-  //   "hemsida": "https://www.bostadsbolaget.se/"
-  // },
+  {
+    "adresscoordinates": "Mjölnaregatan 3 Gothenburg",
+    "adress": "Mjölnaregatan 3A-B",
+    "latitude": 57.7091328,
+    "longitude": 11.9631685,
+    "fastighetsbeteckning": "Nordstaden 29:3",
+    "id": 17,
+    "hyresvard": "Bostadsbolaget",
+    "hyresvardID": 2,
+    "icon": bostadsbolageticon,
+    "hemsida": "https://www.bostadsbolaget.se/"
+  },
   // {
   //   "adresscoordinates": "Mjölnaregatan 4 Gothenburg",
   //   "adress": "Mjölnaregatan 4",
@@ -986,5 +986,245 @@ export default
     "hyresvardID": 8,
     "icon": vasterstadenicon,
     "hemsida": "https://www.vasterstaden.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Fabriksgatan 39-41",
+    "latitude": 57.699574,
+    "longitude": 11.994174,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Familjebostäder",
+    "hyresvardID": 11,
+    "icon": familjebostadericon,
+    "hemsida": "https://www.familjebostader.se"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Åvägen 28-32",
+    "latitude": 57.699462,
+    "longitude": 11.992171,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Familjebostäder",
+    "hyresvardID": 11,
+    "icon": familjebostadericon,
+    "hemsida": "https://www.familjebostader.se"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Odinsgatan 23",
+    "latitude": 57.709364,
+    "longitude": 11.983777,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Familjebostäder",
+    "hyresvardID": 11,
+    "icon": familjebostadericon,
+    "hemsida": "https://www.familjebostader.se"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Wadmansgatan 3-16",
+    "latitude": 57.699912,
+    "longitude": 11.981171,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Familjebostäder",
+    "hyresvardID": 11,
+    "icon": familjebostadericon,
+    "hemsida": "https://www.familjebostader.se"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Tegnersgatan 18",
+    "latitude": 57.698586,
+    "longitude": 11.9846,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Familjebostäder",
+    "hyresvardID": 11,
+    "icon": familjebostadericon,
+    "hemsida": "https://www.familjebostader.se"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Pontus Wiknersgatan 10-12",
+    "latitude": 57.693198,
+    "longitude": 11.980694,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Familjebostäder",
+    "hyresvardID": 11,
+    "icon": familjebostadericon,
+    "hemsida": "https://www.familjebostader.se"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Rosensköldsgatn 1-5",
+    "latitude": 57.690212,
+    "longitude": 11.982346,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Familjebostäder",
+    "hyresvardID": 11,
+    "icon": familjebostadericon,
+    "hemsida": "https://www.familjebostader.se"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Eldaregatan 3-18",
+    "latitude": 57.694913,
+    "longitude": 11.944508,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Familjebostäder",
+    "hyresvardID": 11,
+    "icon": familjebostadericon,
+    "hemsida": "https://www.familjebostader.se"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Paradisgatan 26-30",
+    "latitude": 57.694048,
+    "longitude": 11.941955,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Familjebostäder",
+    "hyresvardID": 11,
+    "icon": familjebostadericon,
+    "hemsida": "https://www.familjebostader.se"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Burgårdsgatan 11-13",
+    "latitude": 57.697703,
+    "longitude": 11.985206,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Burggreveplatsen 3-5",
+    "latitude": 57.709531,
+    "longitude": 11.982164,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Folkungagatan 9",
+    "latitude": 57.708582,
+    "longitude": 11.984522,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Johannebergsgatan 22",
+    "latitude": 57.6974,
+    "longitude": 11.982489,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Kastellgatan 18",
+    "latitude": 57.693836,
+    "longitude": 11.955568,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Kristinelundsgatan 18",
+    "latitude": 57.700543,
+    "longitude": 11.977126,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Lasarettsgatan 1",
+    "latitude": 57.703305,
+    "longitude": 11.958562,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Nilssonsberg 34-37",
+    "latitude": 57.694702,
+    "longitude": 11.960098,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Odinsgatan 20-24",
+    "latitude": 57.709146,
+    "longitude": 11.980949,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Risåsgatan 6",
+    "latitude": 57.694317,
+    "longitude": 11.956231,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
+  },
+  {
+    "adresscoordinates": "Övre Spannmålsgatan 4 Gothenburg",
+    "adress": "Rosengatan 2 A-B",
+    "latitude": 57.691041,
+    "longitude": 11.951147,
+    "fastighetsbeteckning": "Nordstaden 22:8",
+    "id": 26,
+    "hyresvard": "Bygg-Göta",
+    "hyresvardID": 12,
+    "icon": bygggotaicon,
+    "hemsida": "http://www.bygg-gota.se/"
   },
 ]
