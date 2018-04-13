@@ -1,1 +1,1 @@
-final final map
+https://hyresvardskartan.firebaseapp.com/
