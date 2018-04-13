@@ -39,6 +39,7 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
+            favicon: './assets/images/favicon3.ico',
             template: path.join(__dirname, 'index.html'),
             title: appHtmlTitle
         })
