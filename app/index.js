@@ -18,6 +18,7 @@ GoogleMapsLoader.load(function(google) {
     zoom: 14,
     zoomControl: true,
     fullscreenControl: false,
+    gestureHandling: 'greedy',
     mapTypeControlOptions: {
       mapTypeIds: []
     },
@@ -70,31 +71,30 @@ GoogleMapsLoader.load(function(google) {
     });
   });
 
-
   var mcOptions = {gridSize: 10, maxZoom: 12, imagePath: 'https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'};
   var markerCluster = new MarkerClusterer(map, markers, mcOptions);
 
-  window.filterMarkers = function(el){
-    let id = el.value;
-
-    if(el.checked){
-      let filteredMarkers = markers.filter((item) => {
-        return item.hyresvardID == id;
-      })
-      filteredMarkers.forEach((item) => {
-        item.setVisible(true);
-      })
-    } else {
-      let filteredMarkers = markers.filter((item) => {
-        return item.hyresvardID == id;
-      })
-      filteredMarkers.forEach((item) => {
-        item.setVisible(false);
-      })
-    }
-  }
 });
 
+window.filterMarkers = function(el){
+  let id = el.value;
+
+  if(el.checked){
+    let filteredMarkers = markers.filter((item) => {
+      return item.hyresvardID == id;
+    })
+    filteredMarkers.forEach((item) => {
+      item.setVisible(true);
+    })
+  } else {
+    let filteredMarkers = markers.filter((item) => {
+      return item.hyresvardID == id;
+    })
+    filteredMarkers.forEach((item) => {
+      item.setVisible(false);
+    })
+  }
+}
 
 $(".kartanlogo").attr("src", kartanlogo2.png);
 
